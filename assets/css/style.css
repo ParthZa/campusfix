@@ -1,0 +1,30 @@
+body{
+    background:#f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.card{
+    border-radius:10px;
+}
+
+h2,h3,h4{
+    font-weight:bold;
+}
+.darkmode{
+    background:#1e1e1e !important;
+    color:white !important;
+}
+
+.darkmode .card,
+.darkmode .table,
+.darkmode .form-control,
+.darkmode textarea,
+.darkmode select{
+    background:#2d2d2d !important;
+    color:white !important;
+}
+
+.darkmode .table td,
+.darkmode .table th{
+    color:white !important;
+}
